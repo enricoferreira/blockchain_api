@@ -6,37 +6,19 @@ body, table, th{
 
 body{
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-}
-
-@media (max-width: 900px) {
-    .container {
-        width: 840px;
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 700px) {
-    .center-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        flex-direction: column;
-    }
-}
-
-.max-size{
-    width: 100% !important;
-    margin-bottom: 10px;
+    background: rgb(75, 74, 74);
 }
 
 .table-title{
     width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;   
-    color: whitesmoke;
+    justify-content: flex-start;       
     letter-spacing: 1px;     
+}
+
+h1.ui.header{
+    color: black !important;
 }
 
 .table-title h3{

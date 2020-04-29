@@ -7,23 +7,46 @@
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./css/style.css">    
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 </head>
 <body>
-    <div class="container center-content">
-        <div class="table-title">
-            <h3></h3>
-        </div>
-        <div class="table-box max-size">
-        
-        </div>
-        <div class="highcharts-figure max-size">
-            <div id="chart-box"></div>
+    <div class="ui container inverted">
+        <div class="ui grid">
+            <div class="sixteen wide computer column">
+                <div class="ui one cards">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="table-title">
+                                <h1 class="ui header"></h1>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="table-box">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sixteen wide computer column">
+                <div class="ui one cards">
+                    <div class="ui card">
+                        <div class="content">
+                            <div class="highcharts-figure max-size">
+                                <div id="chart-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-<script src="./script/main.js"></script>    
+<script type="module" src="./script/main.js"></script>    
 </body>
 </html>
