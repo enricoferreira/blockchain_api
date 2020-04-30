@@ -6,6 +6,7 @@
     <title>Block Chain - Fetch API</title>
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="./css/highcharts.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
@@ -18,39 +19,22 @@
 <body>
     <div class="ui container inverted">
         <div class="ui grid">
-            <div class="sixteen wide computer column">
-                <div class="ui one cards">
-                    <div class="ui card">
-                        <div class="content">
-                            <div class="table-title">
-                                <h1 class="ui header"></h1>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="table-box">
-                                <table class="ui table striped celled">
-                                    <thead>
+            <div class="sixteen wide computer column max-height">                
+                <div class="table-box">
+                    <table class="ui table striped celled inverted ">
+                        <thead>
 
-                                    </thead>
-                                    <tbody>
-                                        
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                        </thead>
+                        <tbody>
+                            
+                        </tbody>
+                    </table>
+                </div>                    
             </div>
-            <div class="sixteen wide computer column">
-                <div class="ui one cards">
-                    <div class="ui card">
-                        <div class="content">
-                            <div class="highcharts-figure max-size">
-                                <div id="chart-box"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="sixteen wide computer column">               
+                <div class="highcharts-figure max-size">
+                    <div id="chart-box"></div>
+                </div>                      
             </div>
         </div>
     </div>

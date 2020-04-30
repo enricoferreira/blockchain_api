@@ -6,12 +6,9 @@ export function gerarGrafico(jsonDados){
         return jsonDados[key].buy;
     })    
 
-    const populandografico = Object.keys(jsonDados).map(key => {
-        // return 
-    })
         Highcharts.chart('chart-box', {
             chart: {
-                type: 'bar',
+                type: 'column',
                 height: 300
             },
             title: {
